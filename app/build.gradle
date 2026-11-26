@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.lanxx.liquidglass'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.lanxx.liquidglass'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+}
